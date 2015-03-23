@@ -11,4 +11,4 @@ web:
    PORT: 80
 db:
   image: mongo
-  command: mongod --smallfiles
+  command: --smallfiles
